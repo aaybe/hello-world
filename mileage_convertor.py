@@ -5,7 +5,7 @@ km_to_convert = float(input("This calculator converts kilometers to miles.\nEnte
 one_km = .621371
 
 #conversion
-result = km_to_convert * one_km
+result = km_to_convert / one_km
 
 #round to 2 decimal place
 result = round(result, 2)
